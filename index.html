@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" 
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/styles.css">
+    <link rel="stylesheet" href="./assets/media-queries.css">
+    <link rel="stylesheet" href="./assets/animaciones.css">
+    <link rel="preconnect" 
+    href="https://fonts.googleapis.com">
+    <link rel="preconnect" 
+    href="https://fonts.gstatic.com" 
+    crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;600;800&display=swap" 
+    rel="stylesheet">
+    <link rel="shortcut icon" href="./assets/header/logo2.png" />
+    <title>Visual Girls Tienda</title>
+</head>
+<body>
+    <header id="header">
+        <div class="header">
+            <img src="./assets/header/logo2.png" alt="logo">
+            <nav class="nav">
+
+                <label for="menu-toggle" class="menu-label">
+                <img src="./assets/header/menu.png" alt="toggle">
+            </label>
+            <input id="menu-toggle" type="checkbox">
+
+                <ul class="nav-list">
+                    <li><a class="nav-link" href="#hero">Home</a></li>
+                    <li><a class="nav-link" href="./login.html">Ingresar</a></li>
+                    <li><a class="nav-link" href="#about-us">Acerca de Nosotros</a></li>
+                    <li><a class="nav-link" href="#categories">Nuestros Planes</a></li>
+                    <li><a class="nav-link" href="#contact">Contactanos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+<main id="main">
+    <section id="hero">
+        <div class="hero">
+            <div class="hero-info">
+               <h1>Visual Girls Tienda</h1>
+               <p>
+                  Bienvenidas!!! Shoes para ti....
+               </p>
+               <a href="#categories" class="hero-btn">Ver Productos</a>
+            </div>
+            <img src="./assets/hero/hero3.png" class="hero-img">
+        </div>
+    </section>
+
+    <section id="about-us">
+        <div class="about-us">
+            <h2>Acerca de Nosotros</h2>
+        <div class="about-us-box">
+            <div class="about-us-tag">
+                <img src="./assets/about-us/1.png" alt="about-us">
+                <h4>Zapatillas de gran confort</h4>
+                <p> 
+                    Comoda y para todo andar . andar con estilo >
+                </p>
+            </div>
+            <div class="about-us-tag">
+                <img src="./assets/about-us/2.png" alt="about-us">
+                <h4>Eco-Friendly</h4>
+                <p> 
+                    Lo mejor de esta temporada
+                </p>            
+            </div>
+            <div class="about-us-tag">
+                <img src="./assets/about-us/3.png" alt="about-us">
+                <h4>Maxima Durabilidad</h4>
+                <p> 
+                   Cuero de muy buena calidad.. eternas <!-- INSERTAR DESCRIPCION   -->
+                </p>            
+            </div>
+        </div>
+        </div>
+    </section>
+    <section id="categories">
+        <div class="categories">
+            <h2>Nuestros Productos</h2>
+        <div class="categories-box">
+            
+            <div class="categories-tag">
+                <img src="./assets/catalogo/asd.png" class="product-img">
+                <span class="product-name">Air Force</span>
+                <ul>
+                  <li>Aptas para ejercicio y traking</li>
+                  <li>Ventiladas</li>
+                  <li>Diseños exclusivos</li>
+                </ul>
+                <button class="btn-buy">Lo Quiero</button>
+              </div>
+              
+              <div class="categories-tag">
+                <img src="./assets/catalogo/2.jpeg" class="product-img">
+                <span class="product-name">Nike Air Max</span>
+                <ul>
+                  <li>Comodidad premium', 'Diseño icónico', 'Tecnología de amortiguación avanzada</li>
+                  <li>Ventiladas</li>
+                  <li>Diseños exclusivos</li>
+                </ul>
+                <button class="btn-buy">Lo Quiero</button>
+              </div>
+              <div class="categories-tag">
+                <img src="./assets/catalogo/3.jpeg" class="product-img">
+                <span class="product-name">Julieta/Romeo</span>
+                <ul>
+                  <li>Aptas para ejercicio y traking</li>
+                  <li>Ventiladas</li>
+                  <li>Diseños exclusivos</li>
+                </ul>
+                <button class="btn-buy">Lo Quiero</button>
+              </div>
+             <div class="categories-tag">
+                <img src="./assets/catalogo/2.jpeg" class="product-img">
+                <span class="product-name">Nike Air Max Infantil </span>
+                <ul>
+                  <li>Comodidad premium', 'Diseño icónico', 'Tecnología de amortiguación avanzada</li>
+                  <li>Ventiladas</li>
+                  <li>Diseños exclusivos</li>
+                </ul>              
+                <button class="btn-buy">Lo Quiero</button>
+              </div>
+        </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="contact-section">
+            <div class="input-help">
+                <h2>Necesitas Ayuda? 🤔</h2>
+                  <p>Nombre</p>
+                  <input type="text" placeholder="Introduce Tu Nombre" class="input-help-text">
+                  <p>Email</p>
+                  <input type="email" placeholder="Introduce Tu Email" class="input-help-text">
+                  <p>Tu Mensaje</p>
+                  <textarea class="msj-input" placeholder="Mensaje" name="Mensaje" id="message" cols="30" rows="10"></textarea>
+                     <div class="term">
+                           <input type="checkbox" name="terms-service" id="terms-service" class="input-msj">
+                           <label for="terms-service">Aceptar Términos y Condiciones</label>
+                     </div>
+                       <div class="btn-send-t-s">
+                           <button class="btn-send-t-s">Enviar</button>
+                        </div>
+            </div>
+            <div class="info-section">
+                <div class="info-contact">
+                       <h4>Números Telefónicos ☎️</h4>
+                   <ul>
+                       <li>+54 9 11-30304465</li>
+                       <li>+54 9 3482-425587</li>
+                   </ul>
+                </div>
+                 <div class="info-map">
+                     <h3>Donde nos encontramos 📍</h3>
+                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3622.182211759623!2d-65.41170276547811!3d-24.789213458544005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bc3bcaa4146a5%3A0x5858d5a81b90c139!2sPlaza%209%20de%20Julio!5e0!3m2!1ses-419!2sar!4v1677374192266!5m2!1ses-419!2sar"></iframe>
+                 </div>
+            </div>
+        </div>
+    </section>
+</main>
+<footer id="footer">
+        <div class="footer">
+            <a href="#hero"><img src="./assets/footer/footer.png" alt="logo-footer"></a>
+            <div class="footer-links">
+                <ul>
+                    <li><a class="footer-a" href="#hero">Home</a></li>
+                    <li><a class="footer-a" href="#about-us">Acerca de Nosotros</a></li>
+                    <li><a class="footer-a" href="#categories">Nuestros Planes</a></li>
+                    <li><a class="footer-a" href="#contact">Contactanos</a></li>
+                </ul>
+            </div>
+            <div class="social">
+                <ul>
+                 <li> <a href="#"><i class="fa-brands fa-youtube link-social"></i></a></li>
+                 <li>  <a href="#"><i class="fa-brands fa-twitter link-social"></i></a></li>
+                 <li>  <a href="#"><i class="fa-brands fa-facebook link-social"></i></a></li>
+                 <li>  <a href="#"><i class="fa-brands fa-linkedin link-social"></i></a></li>
+                 <li>  <a href="#"><i class="fa-brands fa-instagram link-social"></i></a></li>
+                </ul>
+             </div>
+         <div class="notify">
+            <h5>Deseas Recibir Notificaciones?</h5>
+            <input class="input-notify" type="text" name="text" id="text" placeholder="Tu Nombre">
+            <input class="input-notify" type="email" name="email" id="email" placeholder="Tu Email">
+            <input type="submit" value="Suscribirme" class="submit-notify">
+          </div>
+        </div>
+</footer>
+<script src="./assets/script.js"></script>
+</body>
+</html>

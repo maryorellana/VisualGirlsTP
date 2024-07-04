@@ -1,0 +1,290 @@
+:root {
+    --white: #FFFFFE;
+    --purple: #6246ea;
+    --secondary: #B8C1EC;
+    --black: #2b2c34;
+}
+
+@media (max-width: 1300px){
+    .about-us-tag {
+        width: 500px;
+    }
+
+    .about-us {
+        flex-direction: column;
+    }
+
+    .categories {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1300px){
+    .about-us-tag {
+        width: 360px;
+    }
+
+    .categories-tag {
+        width: auto;
+    }
+
+    .about-us-box {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width :1200px){
+    .hero img {
+        height: 300px;
+    }
+
+    .hero {
+        margin-top: 120px;
+    }
+}
+
+@media (max-width :1160px) {
+
+/* POSIBLE ERROR */
+    
+    .about-us-tag {
+        width: 300px;
+    }
+}
+
+
+@media (max-width :992px){
+
+/* HEADER */
+
+    .header {
+        background-color: var(--white);
+        backdrop-filter: blur(0px);
+    }
+
+    .nav-list {
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        flex-direction: column;
+        background-color: var(--white);
+        border-radius: 0px 0px 5px 5px;
+        border-bottom: 2px solid var(--purple);
+        padding: 45px 30px;
+        gap: 25px;
+        align-items: center;
+        z-index: 2;
+        display: none;
+    }
+    
+    .nav-list li {
+        border: 2px solid var(--purple);
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        border-radius: 20px;
+    }
+    
+    .menu-label {
+        display: flex;
+        order: 2;
+        cursor: pointer;
+    }
+
+    .menu-label img {
+        height: 37px;
+        width: auto;
+    }
+
+    #menu-toggle:checked + .nav-list  {
+        display: flex;
+    }
+    
+
+/* HERO */
+
+    .hero {
+        height: 100vh;
+        background: url(./hero/wallpaper2.png);
+        background-size: covergi;
+        animation: wave 10s linear infinite;
+    }
+
+    @keyframes wave {
+        from {
+            background-position-x: 0px;
+        }
+
+        to {
+            background-position-x: 1000px;
+        }
+
+    }
+
+    .hero img {
+        display: none;
+    }
+
+    .hero-info {
+        width: 80%;
+    }
+
+    .hero-info h1 {
+        color: var(--purple);
+    }
+    
+    
+/* ABOUT-US */
+    .about-us-box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-us-tag {
+        width: 60%;
+        height: 300px;
+    }
+/* CATEGORIES */
+
+
+    .categories-box {
+        flex-direction: column;
+    }
+
+    .categories h2 {
+        margin-top: 20px;
+    }
+
+    .categories {
+        height: 100%;
+    }
+
+    .categories-tag {
+        height: 400px;
+        margin: 20px;
+    }
+
+/* FOOTER */
+
+    .notify {
+        display: none;
+    }
+}
+
+@media (max-width:768px){
+
+/* HERO */
+
+    .hero {
+        background-size: cover;
+        height: 800px;
+    }
+
+
+/* CONTACT */
+
+    .contact-section {
+        flex-direction: column;
+    }
+}
+
+/*ABOUT-US*/
+
+.about-us-tag {
+    margin: 15px 0px
+}
+
+@media (max-width:600px){
+
+/* HERO */
+
+    .hero-btn {
+        width: 100%;
+    }
+
+    .hero {
+        margin-top: 20px;
+    }
+
+
+/* ABOUT-US */ 
+    
+    .about-us h2 {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .about-us-tag {
+        width: 80%;    
+    }
+
+
+/* CATEGORIES */
+
+    .categories h2 {
+        margin-top: 50px;
+    }
+
+/* CONTACT */
+
+    .info-section {
+        padding: 20px 5px;
+    }
+
+    .info-section ul {
+        text-align: center;
+        align-items: center;
+    }
+
+/* FOOTER */
+
+     .social {
+            display: none;
+        }
+}
+
+@media (max-width:400px) {
+
+/* HERO */
+
+    .hero-btn {
+        width: 100%;
+    }
+
+/* ABOUT-US */
+
+    .about-us h2 {
+        width: 100%;
+        font-size: 30px;
+    }
+    
+/* CONTACT */
+
+    .input-help {
+        width: 90%;
+    }
+    
+    .input-help h2 {
+        margin-top: 40px;
+    }
+
+    .input-help-text {
+        width: 100%;
+    }
+
+    .btn-send-t-s {
+        width: 100%;
+    }
+
+    .info-section {
+        width: 100%;
+        background-color: var(--white);
+    }
+
+    .info-map iframe {
+        width: 100%;
+    }
+    
+}
